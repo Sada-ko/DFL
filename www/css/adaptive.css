@@ -417,9 +417,21 @@
     /*Новая главная*/
 
     .main.heads h1 {
-        font-size: 80px;
+        font-size: 70px;
         letter-spacing: 3px;
-        line-height: 90px;
+        line-height: 75px;
+    }
+
+    .main.heads .illustration {
+        height: 400px;
+    }
+
+    .main.win {
+        padding: 40px 0 0;
+    }
+
+    .main.win .content .point {
+        margin: 0 0 40px;
     }
 
 
