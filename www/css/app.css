@@ -534,7 +534,8 @@ h4, h5, h6 {
     /*color: #00171f;*/
 }
 
-.main.heads h1, h2{
+.main.heads h1,
+.main.heads h2{
     color: white;
 }
 
@@ -726,23 +727,23 @@ h4, h5, h6 {
     margin-top: 60px;
 }
 
-.main.win .orbit-slide {
-    background-color: #ffd766;
+.main .orbit-slide {
+    background-color: transparent;
 }
 
-.main.win .orbit {
+.main .orbit {
     padding-bottom: 20px;
 }
 
-.main.win .orbit-bullets {
+.main .orbit-bullets {
     bottom: -10px;
 }
 
-.main.win .orbit-bullets button.is-active {
+.main .orbit-bullets button.is-active {
     background-color: #a38d47;
 }
 
-.main.win .orbit-bullets button {
+.main .orbit-bullets button {
     background-color: #dcbb64;
 }
 

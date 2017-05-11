@@ -426,8 +426,12 @@
         height: 400px;
     }
 
-    .main.win {
+    .main.win{
         padding: 40px 0 0;
+    }
+
+    .main.tariffs{
+        padding: 120px 0 0;
     }
 
     .main.win .content .point {
