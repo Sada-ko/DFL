@@ -123,16 +123,14 @@
             <div class="right_button_wrapper">
 
                 <!--Позователь НЕ ЗАЛОГИНЕН-->
-                <a class="registration_link" href="registration.html">Регистрация</a>
-                <a class="button" data-open="enter_modal" aria-controls="enter_modal" aria-haspopup="true" tabindex="0">войти</a>
+                <!--<a class="registration_link desktop" href="registration.html">Регистрация</a>-->
+                <!--<a class="button" data-open="enter_modal" aria-controls="enter_modal" aria-haspopup="true" tabindex="0">войти</a>-->
 
                 <!--Позователь ЗАЛОГИНЕН-->
-                <!--<a class="svg_icon private" href="cabinet.html">
+                <a class="svg_icon private" href="cabinet.html">
                     <span class="desktop">Константин Константинович</span>
-                    <svg>
-                        <use xlink:href="#private-icon"/>
-                    </svg>
-                </a>-->
+                </a>
+                <a class="button" href="#">кабинет</a>
             </div>
 
             <!--Новый элемент, кнопка вызова мобильного меню-->
@@ -218,13 +216,13 @@
         </div>
 
         <!--Новая главная-->
-        <div class="main heads">
+        <div class="main heads egg_yellow">
             <div class="head">
                 <h1>ДЕТИ В&nbsp;СПОРТ</h1>
             </div>
             <div class="row">
                 <div class="columns medium-6 illustration">
-                    <img class="fill-box" src="img/boy_shirt.jpg" alt=""/>
+                    <img class="fill-box" src="img/boys_face.jpg" alt=""/>
                 </div>
                 <div class="columns medium-6 texts">
                     <h2>Тестовый заголовок номер один</h2>
@@ -271,7 +269,8 @@
             </div>
         </div>
 
-        <div class="main win egg_yellow" id="wins">
+        <!--Номинации-->
+        <!--<div class="main win egg_yellow" id="wins">
 
             <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
                 <ul class="orbit-container">
@@ -431,8 +430,18 @@
 
 
 
-            <!--<a href="#" class="button dark">Узнать подробнее</a>-->
-        </div>
+            &lt;!&ndash;<a href="#" class="button dark">Узнать подробнее</a>&ndash;&gt;
+        </div>-->
+
+        <!--Видеоблок-->
+        <section class="video_bg">
+
+            <video autoplay="" loop="" id="video-background" poster="img/video/3.jpg" muted="">
+                <source src="img/video/deti-v-sport_2.mp4" type="video/mp4"></source>
+                <!--<source src="img/video/test.webm" type="video/webm"></source>-->
+            </video>
+
+        </section>
 
         <div class="main needs">
             <h2 id="conditions">Что для этого нужно?</h2>

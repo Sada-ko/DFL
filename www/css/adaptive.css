@@ -3,6 +3,10 @@
         font-size: 1.6rem;
     }
 
+    .registration_link.desktop{
+        display: inline-block !important;
+    }
+
     .main.win .content .point{
         width: 30%;
         margin: 0 10px 20px;
@@ -38,6 +42,23 @@
     .main.heads .illustration {
         background-size: cover !important;
     }
+
+
+
+
+    /*Видеоблок*/
+    section.video_bg {
+        height: 600px;
+    }
+
+    #video-background {
+        max-height: 100%;
+        min-height: 600px;
+        min-width: 100%;
+    }
+
+
+
 
 
     .main.needs .section {
@@ -775,18 +796,23 @@
 
 
 @media screen and (max-width: 40em){
+
+    .registration_link.desktop{
+        display: none !important;
+    }
+
     .main.heads{
         height: auto !important;
         padding: 20px 0 0;
     }
 
     .main.heads .texts{
-        background-color: #ffd766;
+        background-color: #00171f;
         padding: 40px;
     }
 
     .main.heads .subheader {
-        color: #00171f;
+        color: #ffd766;
         text-align: center;
     }
 
@@ -796,9 +822,21 @@
         background-size: contain !important;
     }
 
-
     .main.heads .texts h2{
         text-align: center;
-        color: #00171f;
+        color: #ffffff;
     }
+
+
+    /*Видеоблок*/
+    section.video_bg {
+        height: 400px;
+    }
+
+    #video-background {
+        min-height: 400px;
+        max-height: 100%;
+    }
+
+
 }

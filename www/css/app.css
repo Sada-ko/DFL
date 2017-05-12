@@ -534,14 +534,13 @@ h4, h5, h6 {
     /*color: #00171f;*/
 }
 
-.main.heads h1,
-.main.heads h2{
+.main.heads h1{
     color: white;
 }
 
 .main.heads h2{
     text-align: left;
-    color: #ffd766;
+    /*color: #ffd766;*/
     text-transform: uppercase;
 }
 
@@ -553,7 +552,7 @@ h4, h5, h6 {
 }
 
 .main.heads {
-    background-color: #00171f;
+    /*background-color: #00171f;*/
     height: 620px;
     padding: 40px 0 0;
 }
@@ -562,7 +561,8 @@ h4, h5, h6 {
     background-position: right bottom !important;
     background-repeat: no-repeat;
     background-size: contain !important;
-    height: 480px;
+    height: 640px;
+    margin-top: -160px;
 }
 
 .main.heads .row{
@@ -571,6 +571,7 @@ h4, h5, h6 {
 
 .main.heads .texts{
     padding: 40px 40px 0 20px;
+    color: #00171f;
 }
 
 .main.heads .head{
@@ -578,7 +579,7 @@ h4, h5, h6 {
 }
 
 .main.heads .subheader {
-    color: white;
+    color: #ffffff;
     font-size: 22px;
 }
 
@@ -638,6 +639,29 @@ h4, h5, h6 {
     font-weight: bold;
 }
 
+
+/*Видеоблок*/
+section.video_bg {
+    height: 750px;
+    left: 0;
+    /*opacity: 0.7;*/
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+#video-background {
+    top: 0;
+    left: auto;
+    /*margin-right: -3px;*/
+    min-height: 750px;
+    min-width: 100%;
+    position: absolute;
+    right: 0;
+    top: auto;
+}
 
 
 /*Winning*/
