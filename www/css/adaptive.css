@@ -427,7 +427,7 @@
     }
 
     .main.orbit {
-        height: 60vh;
+        height: 90vh;
     }
 
     .main.orbit .typography {
@@ -802,13 +802,15 @@
     }
 
     .main.heads{
-        height: auto !important;
+        /*height: auto !important;*/
         padding: 20px 0 0;
     }
 
     .main.heads .texts{
         background-color: #00171f;
+        bottom: 0;
         padding: 40px;
+        position: absolute;
     }
 
     .main.heads .subheader {
@@ -825,6 +827,8 @@
     .main.heads .texts h2{
         text-align: center;
         color: #ffffff;
+        background-color: transparent;
+        padding: 0;
     }
 
     .main.heads .illustration {

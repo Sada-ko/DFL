@@ -542,6 +542,8 @@ h4, h5, h6 {
     text-align: left;
     /*color: #ffd766;*/
     text-transform: uppercase;
+    background-color: #ffd766;
+    padding: 10px 20px;
 }
 
 .main.heads h1 {
