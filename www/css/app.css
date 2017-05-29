@@ -387,17 +387,18 @@ h4, h5, h6 {
 
 .header .menu_wrapper{
     display: inline-block;
-    padding: 41px  0 42px 40px;
+    padding: 38px  0 42px 40px;
     vertical-align: top;
     width: auto;
 }
 
 .header ul.menu {
     float: right;
+    font-size: 1.2em;
 }
 
 .header .menu li {
-    padding: 0 20px;
+    padding: 0 15px;
     float: none;
 }
 
@@ -414,7 +415,7 @@ h4, h5, h6 {
 
 .header .right_button_wrapper{
     display: inline-block;
-    padding: 33px;
+    padding: 33px 33px 33px 25px;
     width: auto;
 }
 
@@ -462,6 +463,7 @@ h4, h5, h6 {
 
 .header .registration_link{
     margin-right: 20px;
+    font-size: 1.2em;
 }
 
 
@@ -555,8 +557,8 @@ h4, h5, h6 {
 
 .main.heads {
     /*background-color: #00171f;*/
-    height: 620px;
-    padding: 40px 0 0;
+    height: 105vh;
+    /*padding: 40px 0 0;*/
 }
 
 .main.heads .illustration{
@@ -574,14 +576,23 @@ h4, h5, h6 {
 .main.heads .texts{
     padding: 40px 40px 0 20px;
     color: #00171f;
+    /*margin-top: 15%;*/
+    position: absolute;
+    right: 10px;
+    top: 20%;
 }
 
 .main.heads .head{
     height: 100px;
 }
 
+.main.heads .picture{
+    width: 100%;
+    height: 100%;
+}
+
 .main.heads .subheader {
-    color: #ffffff;
+    color: #00171f  ;
     font-size: 22px;
 }
 
