@@ -827,9 +827,9 @@
     }
 
     .main.heads .illustration {
-        background-position: right bottom !important;
-        background-size: cover !important;
+        background-position: center bottom !important;
         background-repeat: no-repeat;
+        background-size: contain !important;
     }
 
     .main.heads .texts h2{
@@ -837,11 +837,6 @@
         color: #ffffff;
         background-color: transparent;
         padding: 0;
-    }
-
-    .main.heads .illustration {
-        height: 550px;
-        margin-top: -120px;
     }
 
 
