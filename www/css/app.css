@@ -2379,3 +2379,27 @@ table.solving_task input.link{
 #footer .social a.svg_icon:hover svg{
     fill: #ffd766;
 }
+
+
+/*Заглушка, сайт закрыт*/
+.closed-main{
+    padding-top: 200px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding-top: 105px;
+}
+
+.closed-main .closed-picture{
+    margin: 0 auto;
+    background-image: url("../img/design/sneakers.png");
+    background-repeat: no-repeat;
+    /*background-position: 0px 110px;*/
+    background-size: contain;
+    width: 380px;
+    height: 210px;
+}
+
+.closed-main h1{
+    margin-bottom: 2rem;
+}
