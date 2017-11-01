@@ -773,8 +773,6 @@
 
 
 
-
-
     #footer{
         height: 290px;
         margin-top: -290px;
@@ -791,6 +789,25 @@
     #footer .social a.svg_icon {
         margin: 0 0 10px 0;
     }
+
+
+
+    /*Closed Заглушка*/
+    .closed-main .center_content{
+        width: 100%;
+        padding: 100px 20px 0 20px;
+    }
+
+    .closed-main .header .logo {
+        height: 80px;
+    }
+
+    .closed-main .closed-picture{
+        width: 90%;
+        max-height: 170px;
+    }
+
+
 }
 
 

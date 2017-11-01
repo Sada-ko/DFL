@@ -2382,12 +2382,30 @@ table.solving_task input.link{
 
 
 /*Заглушка, сайт закрыт*/
-.closed-main{
+.closed-main .header{
+    width: 100%;
+    background-color: transparent;
+}
+
+.closed-main .header .logo{
+    width: 350px;
+    height: 90px;
+    background-image: url("../img/design/logo_transparent.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+.closed-main .header::before{
+    display: none;
+}
+
+.closed-main .center_content{
     padding-top: 200px;
     width: 500px;
     text-align: center;
     margin: auto;
-    padding-top: 105px;
+    padding-top: 55px;
 }
 
 .closed-main .closed-picture{
@@ -2402,4 +2420,18 @@ table.solving_task input.link{
 
 .closed-main h1{
     margin-bottom: 2rem;
+}
+
+.closed-main .links{
+    width: 100%;
+    padding-top: .3rem;
+}
+
+.closed-main .links p{
+    margin: .5rem;
+}
+
+.closed-main .links a{
+    border: none;
+    margin: 0 .5rem;
 }
